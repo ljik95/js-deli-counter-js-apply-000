@@ -5,6 +5,13 @@ var katzDeliLine = [];
 //   return 'Welcome, ' + name + '. You are number ' + (katzDeliLine.length) + ' in line.';
 // }
 
+function takeANumber(katzDeliLine) {
+  let numOfPerson = 1;
+  katzDeliLine.push(numOfPeron);
+  numOfPerson++;
+  return 'Welcome, ' + numOfPerson - 1;
+}
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!';
